@@ -1,0 +1,11 @@
+type Query {
+  allFoods(title: String): [Food]
+}
+
+type Food {
+  _id: ID
+  name: String
+  price: Int
+  imageLink: String
+  gr: Int
+}

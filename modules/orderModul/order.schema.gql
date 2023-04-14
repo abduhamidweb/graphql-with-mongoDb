@@ -1,0 +1,12 @@
+type Query {
+  allOrders: [Order]
+}
+
+type Order {
+  _id: ID
+  food_id: String
+  user_id: ID
+  count: Int
+  user: User
+  food: Food
+}
